@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)),
-    url('/background/background.png');
+    url('/images/one.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -10,7 +10,7 @@ export const Main = styled.main`
 
 export const Main2 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)),
-    url('/background/background2.png');
+    url('/images/two.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -18,7 +18,7 @@ export const Main2 = styled.main`
 
 export const Main3 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)),
-    url('/background/background3.webp');
+    url('/images/three.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -26,7 +26,7 @@ export const Main3 = styled.main`
 
 export const Main4 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)),
-    url('/background/background4.jpg');
+    url('/images/four.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -34,7 +34,7 @@ export const Main4 = styled.main`
 
 export const Main5 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)),
-    url('/background/background5.webp');
+    url('/images/five.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -42,7 +42,7 @@ export const Main5 = styled.main`
 
 export const Main6 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.4), rgba(1, 1, 10, 0.8)),
-    url('/background/background6.webp');
+    url('/images/six.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -50,16 +50,15 @@ export const Main6 = styled.main`
 
 export const Main7 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.8), rgba(1, 1, 10, 0.9)),
-    url('/background/background7.jpg');
+    url('/images/seven.jpg');
   background-position: center;
-  // opacity: 0.;
   background-repeat: no-repeat;
   background-size: cover; 
 `;
 
 export const Main8 = styled.main`
   background: linear-gradient(rgba(19, 4, 5, 0.8), rgba(1, 1, 10, 0.9)),
-    url('/background/background8.jpg');
+    url('/images/eight.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 

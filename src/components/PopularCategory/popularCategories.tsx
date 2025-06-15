@@ -30,7 +30,7 @@ export default function PopularCategories() {
 
   return (
     <section className="p-4">
-      <h2 className="text-xl text-left text-white font-bold mb-2"> Popular Categories</h2>
+      <h2 className="text-xl text-left text-light-text font-bold mb-2"> Popular Categories</h2>
 
       <div className="flex space-x-3 mb-4">
         {Object.keys(GENRES).map((genre) => (

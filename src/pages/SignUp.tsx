@@ -156,21 +156,21 @@ export default function SignUp() {
   };
 
   return (
-    <SC.Main className="min-h-screen flex items-center justify-center bg-background">
+    <SC.Main2 className="min-h-screen flex items-center justify-center bg-background">
       <div className="bg-container text-light-text py-8 px-3 lg:rounded-2xl shadow-md w-full max-w-md min-h-screen flex flex-col text-center">
-        <span className=" flex justify-between items-center mb-5">
+        <span className=" flex justify-between items-center mb-10">
           <Link to="/log_In">
             <ArrowLeft size={20} />
           </Link>
           <h2 className="text-[16px] text-left font-semibold">
-            Vic Movies Zone
+           Ada Movie Zone
           </h2>
           <Link to="/home">
             <img src={logo} alt="" className="h-10" />
           </Link>
         </span>
 
-        <h2 className="text-2xl font-bold mb-4">Sign Up</h2>
+        <h3 className="text-xl font-semibold mb-4">Create Account</h3>
 
         <form onSubmit={handleRegister} className="space-y-4">
           <CustomInput
@@ -231,7 +231,10 @@ export default function SignUp() {
           />
 
         </form>
+        <footer className="py-6 text-center text-gray-500 mt-auto">
+        &copy; {new Date().getFullYear()} Ada Movie Zone. All rights reserved.
+      </footer>
       </div>
-    </SC.Main>
+    </SC.Main2>
   );
 }

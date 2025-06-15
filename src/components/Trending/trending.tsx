@@ -26,7 +26,7 @@ export default function Trending() {
 
   return (
     <div className="p-4">
-      <h2 className="text-white text-xl font-bold mb-4 text-left">
+      <h2 className="text-light-text text-xl font-bold mb-4 text-left">
         Trending Now
       </h2>
       <div className="custom-scroll flex gap-4 overflow-x-auto py-3">

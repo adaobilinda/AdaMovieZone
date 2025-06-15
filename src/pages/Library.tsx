@@ -36,7 +36,7 @@ export default function Library() {
     <>
       <h2 className="text-[16px] font-semibold mb-3 text-left pl-2">{title}</h2>
       {movies.length === 0 ? (
-        <p className="text-gray-400">No movies in {title.toLowerCase()} yet.</p>
+        <p className="text-red-700">No movies in {title.toLowerCase()} yet.</p>
       ) : (
         <div className="grid grid-cols-1 px-2 gap-4 w-full">
           {movies.map((movie) => (
@@ -46,14 +46,14 @@ export default function Library() {
               className="rounded-md w-full h-[20vh] flex justify-between bg-input py-1 pr-1 overflow-hidden"
             >
               <div className="flex flex-col  text-left p-2 w-[60%] relative">
-                <p className="text-gray-400">
+                <p className="text-red-700">
                   {movie.genre_ids
                     ?.map((id) => genreMap[id])
                     .filter(Boolean)
                     .join(", ") || "Unknown Genre"}
                 </p>
                 <h2 className=" font-bold">{movie.title}</h2>
-                <div className="text-xs text-gray-400 mt-1">
+                <div className="text-xs text-red-700 mt-1">
                   <p>
                     {movie.release_date
                       ? new Date(movie.release_date).getFullYear()
@@ -75,11 +75,6 @@ export default function Library() {
                 alt={movie.title}
                 className="rounded-md object-cover h-full"
               />
-              {/* <CustomButton
-                type={"submit"}
-              title={"Remove"}
-              className="w-[5%] bg-buttons p-[6px] absolute mt-20 ml-2"
-              /> */}
             </Link>
           ))}
         </div>
@@ -88,7 +83,7 @@ export default function Library() {
   );
 
   return (
-    <SC.Main5 className="min-h-screen flex items-center justify-center bg-background">
+    <SC.Main8 className="min-h-screen flex items-center justify-center bg-background">
       <div className="bg-container text-light-text py-8 px-3 lg:rounded-2xl shadow-md w-full max-w-md min-h-screen mb-12 flex flex-col text-center align-top">
         <span className=" flex justify-between items-center mb-5">
           <Link to="/Home">
@@ -126,6 +121,6 @@ export default function Library() {
         )}
       </div>
       <BottomNav />
-    </SC.Main5>
+    </SC.Main8>
   );
 }

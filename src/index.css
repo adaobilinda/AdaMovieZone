@@ -2,11 +2,11 @@
 
 @theme {
   --color-background: #211212;
-  --color-input: #472426;
-  --color-buttons: #e82933;
-  --color-light-text: #ffffff;
-  --color-btn-text: #c79194;
-  --color-container: #2C1617;
+  --color-input: #2196F3;
+  --color-buttons: #4CAF50;
+  --color-light-text: #212121;
+  --color-btn-text: #333333;
+  --color-container: #F7F7F7;
 
 
   --color-muted: #3a3a3a;

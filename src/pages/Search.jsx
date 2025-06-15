@@ -35,10 +35,10 @@ export default function SearchFunction() {
   };
 
   return (
-    <SC.Main3 className="min-h-screen flex items-center justify-center bg-background">
+    <SC.Main7 className="min-h-screen flex items-center justify-center bg-background">
       <div className="bg-container text-light-text py-8 px-3 lg:rounded-2xl shadow-md w-full max-w-md min-h-screen flex flex-col text-center align-top">
         {/* Header */}
-        <span className="flex justify-between items-center mb-5 ">
+        <span className="flex justify-between items-center mb-10 ">
           <Link to="/Home">
             <ArrowLeft size={20} />
           </Link>
@@ -58,7 +58,7 @@ export default function SearchFunction() {
             className="pr-10"
             rightIcon={
               <button type="submit">
-                <Search className="text-gray-400" size={20} />
+                <Search className="text-light-text" size={20} />
               </button>
             }
           />
@@ -98,6 +98,6 @@ export default function SearchFunction() {
       </div>
 
       <BottomNav />
-    </SC.Main3>
+    </SC.Main7>
   );
 }
